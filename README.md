@@ -1,1 +1,5 @@
-# mobile-emergency-locator
+# Mobile Emergency Locator
+
+To provide a mobile app which sends the devices current location when an emergency number is dialed. The emergency number to detect will be settable in the app's settings. This way a person can set their local emergency number (911 for most places in the USA, or 112 in parts of Europe). Multiple number could also be set so that an emergency contact could be able to access the caller's location if needed. For example, if a child calls a parent for help but doesn't know how to describe their current location the parent would have access to the child's location.
+
+The devices location and phone number will be encrypted and stored in a cloud database which can be accessed by a web interface search on a phone number. The device information will be stored for a limited time (maybe a set time of 30 or 60 minutes from the time it was inserted or maybe a certain amount of time after the phone call has ended if possible). If the phone number searched exists then the location information will be displayed.
